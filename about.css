@@ -1,0 +1,75 @@
+.about{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+hr{
+    border-style: solid;
+    border-color: blue;
+    padding: 3px;
+    background-color:black;
+    
+    
+}
+body{
+    background: linear-gradient( blue,aqua);
+    background-repeat: no-repeat;
+    filter: brightness(90%);
+    min-height: 95vh;
+}
+.goal{
+    text-align: center;
+    font-size: 24px;
+    color:white;
+   
+}
+.goal h4{
+    text-decoration: underline;
+    margin-bottom: 1px;
+
+} 
+caption{
+    color:white;
+    font-size: 20px;
+}
+table{
+    background: linear-gradient(to left, blue,aqua);
+    box-shadow: 0px 4px 8px black;
+    padding: 20px;
+    color:white;
+    border: 3px;
+    font-size: 20px;
+}
+.dev{
+text-align: center;
+margin-left: 38%;
+}
+.mission h4 {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 1px;
+}
+.mission p{
+    text-align: center;
+    color: white;
+    font-size: 24px;
+
+}
+.vision{
+    font-size: 24px;
+    color: white;
+    text-align: center;
+}
+.vision h4{
+    margin-bottom: 1px;
+}
+.team{
+    color: white;
+    text-align: center;
+    font-size: 24px;
+
+}
+.team h4{
+    margin-bottom: 1px;
+}

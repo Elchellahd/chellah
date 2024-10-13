@@ -1,0 +1,66 @@
+.container{
+text-align: center;
+background: linear-gradient(rgba(00,00,00,0.5),rgba(00,00,00,0.5)),url(./assert/bmw.jpg);
+background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+margin-top: 5%;
+margin-left: 40%;
+width: 300px;
+height: 350px;
+border-radius:  12px;
+box-shadow: 0px 4px 8px black;
+}
+input{
+    padding: 10px;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+}
+input[type="text"]:hover{
+    box-shadow: 0px 4px 8px black;
+}
+input[type="number"]:hover{
+    box-shadow: 0px 4px 8px black;
+}
+input[type="email"]:hover{
+    box-shadow:0px 4px 8px  black;
+
+}
+input::placeholder{
+    color:black;
+    letter-spacing: 1px;
+   
+}
+.container h1{
+    padding-top: 10%;
+    color: white;
+    text-transform: capitalize;
+    text-shadow: 0px 4px 8px black;
+} 
+h2{
+    font-size: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    color:white;
+   background-color: grey;
+    text-shadow: 0px 4px 8px black;
+    box-shadow: 0px 4px 8px black;
+}
+body{
+background-image: linear-gradient(rgba(00,00,00,0.5),rgba(00,00,00,0.5)),url(./assert/bmw.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 95vh;
+}
+button{
+    background: transparent;
+    border-color: white;
+    padding: 6px;
+    border-radius: 12px;
+    color:white;
+    font-size: 15px;
+}
