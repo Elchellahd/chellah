@@ -4,7 +4,7 @@
  
 }
 body{
-  background-image:linear-gradient(rgba(00,00,00,0.6),rgba(00,00,00,0.6)), url(./assert/future.jpg);
+  background-image:linear-gradient(rgba(00,00,00,0.6),rgba(00,00,00,0.6)), url(assert/future.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
