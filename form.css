@@ -1,6 +1,6 @@
 .container{
 text-align: center;
-background: linear-gradient(rgba(00,00,00,0.5),rgba(00,00,00,0.5)),url(./assert/bmw.jpg);
+background: linear-gradient(rgba(00,00,00,0.5),rgba(00,00,00,0.5)),url(bmw.jpg);
 background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -50,7 +50,7 @@ h2{
     box-shadow: 0px 4px 8px black;
 }
 body{
-background-image: linear-gradient(rgba(00,00,00,0.5),rgba(00,00,00,0.5)),url(./assert/bmw.jpg);
+background-image: linear-gradient(rgba(00,00,00,0.5),rgba(00,00,00,0.5)),url(bmw.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
