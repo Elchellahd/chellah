@@ -181,8 +181,9 @@ margin-bottom: 5%;
   }
 
   .column, .colum {
-    flex-basis: 45%; /* Make columns take more space on smaller screens */
-    height: auto;
+    flex-basis: 48%; /* Make columns take more space on smaller screens */
+    height: 200px;
+      width:200px
     margin-bottom: 20px;
   }
 
@@ -207,7 +208,7 @@ margin-bottom: 5%;
 
 @media only screen and (max-width: 480px) {
   .column, .colum {
-    flex-basis: 100%; /* Stack columns on top of each other */
+    flex-basis: 48%; /* Stack columns on top of each other */
     height: auto;
   }
 
