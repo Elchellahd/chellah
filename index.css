@@ -1,43 +1,41 @@
+/* Reset default styling */
 * {
-  padding: 0px;
-  margin: 0px;
- 
-}
-body{
-  background-image:linear-gradient(rgba(00,00,00,0.6),rgba(00,00,00,0.6)), url(future.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    min-height: 99vh;     
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-    .container {
-        width: 100%;
-    }
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(future.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 99vh;
+}
 
+.container {
+  width: 100%;
+}
 
-
- 
+/* Navigation styling */
 nav {
   display: flex;
   justify-content: space-between;
-  background-color:teal;
-  box-shadow: 0px 4px 8px white;
+  align-items: center;
+  background-color: teal;
+  box-shadow: 0 4px 8px white;
   margin-top: 15px;
   padding: 10px 20px;
-  
 }
-
 
 nav h1 {
   font-size: 20px;
   text-transform: capitalize;
   color: white;
-  text-shadow: 0px 4px 8px black;
+  text-shadow: 0 4px 8px black;
 }
-nav >h1:first-child{
-  color:white;
-}
+
+/* Hero section */
 .hero_section {
   text-align: center;
   top: 50%;
@@ -45,19 +43,29 @@ nav >h1:first-child{
   transform: translate(-50%, -50%);
   position: absolute;
 }
+
 .hero_section h1 {
   font-size: 50px;
   text-transform: capitalize;
-  color:orangered;
+  color: orangered;
 }
-.hero_section h3{
-    color:white;
-    letter-spacing: 1px;
-  
+
+.hero_section h3 {
+  color: white;
+  letter-spacing: 1px;
 }
+
+/* Navigation links */
+.nav_links ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
 .nav_links ul li {
   list-style-type: none;
 }
+
 .nav_links ul li a {
   text-decoration: none;
   padding: 5px;
@@ -66,61 +74,107 @@ nav >h1:first-child{
   border-radius: 12px;
   color: white;
 }
-@media and screen(min-width :768px){
-  .nav_links ul li a{
-    font-size:15px;
-    color:black;
-    padding:2px;
-    letter-spacing:0px;
-    
-  }
-}
+
 .nav_links ul li a:hover {
   text-decoration: underline;
-  text-shadow: 0px 4px 8px black;
+  text-shadow: 0 4px 8px black;
 }
-input{
-    outline: none;
-    background-color: aqua;
-    border: none;
-    padding: 5px;
-    border-radius: 12px;
+
+/* Input styling */
+input {
+  outline: none;
+  background-color: aqua;
+  border: none;
+  padding: 5px;
+  border-radius: 12px;
 }
-input::placeholder{
-    color:white;
+
+input::placeholder {
+  color: white;
 }
-button{
-    margin-top: 5%;
-    background: transparent;
-    padding: 10px;
-    border-radius: 12px;
-    border-color: orange;
-    font-size: 20px;
+
+/* Button styling */
+button {
+  margin-top: 5%;
+  background: transparent;
+  padding: 10px;
+  border-radius: 12px;
+  border: 1px solid orange;
+  font-size: 20px;
 }
-button:hover{
-    border-color: orange;
-    box-shadow: 0px 4px 8px orange;
-    color:aliceblue;
+
+button:hover {
+  box-shadow: 0 4px 8px orange;
+  color: aliceblue;
 }
-.row{
+
+/* Responsive layout for the row and columns */
+.row {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
-  
 }
-.column{
-  flex-basis: 12%;
-  margin-top: 35%;
+
+.column {
+  flex-basis: calc(100% / 3 - 20px);
+  margin: 20px 10px;
   text-align: center;
   background: transparent;
   border-radius: 20px;
   min-height: 100px;
-  margin-left: 10px;
-  margin-right: 10px;
-  border-style: solid;
-  border-color: white;
-}
-.btn a{
-  text-decoration: none;
-  color:white;
+  border: 1px solid white;
 }
 
+/* Media queries for mobile responsiveness */
+@media (max-width: 768px) {
+  .nav_links ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav_links ul li a {
+    font-size: 18px;
+    padding: 8px;
+  }
+
+  .hero_section h1 {
+    font-size: 30px;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .column {
+    flex-basis: 100%;
+    margin-top: 20px;
+  }
+
+  button {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  nav {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero_section h1 {
+    font-size: 24px;
+  }
+
+  .hero_section h3 {
+    font-size: 16px;
+  }
+
+  .nav_links ul li a {
+    font-size: 16px;
+  }
+
+  button {
+    font-size: 16px;
+    padding: 8px;
+  }
+}
