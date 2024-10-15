@@ -14,7 +14,7 @@ body{
     .container {
         width: 100%;
     }
-}
+
 
 
  
@@ -62,7 +62,6 @@ nav >h1:first-child{
   padding: 5px;
   letter-spacing: 1px;
   font-size: 20px;
-  border-color: white;
   border-radius: 12px;
   color: white;
   
@@ -116,13 +115,14 @@ button:hover{
   text-decoration: none;
   color:white;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 320px) {
   /* Tablet styles */
   nav {
     flex-direction: row;
     justify-content: space-between;
     background-color:teal;
   }
+}
 
   .row {
     flex-direction: row;
@@ -146,7 +146,7 @@ button:hover{
     font-size: 20px;
   }
 
-}
+
 
 @media screen and (min-width: 768px) {
   /* Desktop styles */
