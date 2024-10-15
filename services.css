@@ -171,3 +171,64 @@ margin-bottom: 5%;
     background-size: cover;
     background-position: center;
 }
+@media only screen and (max-width: 768px) {
+  .serv > h1 {
+    font-size: 30px;
+  }
+  
+  .serv p {
+    font-size: 18px;
+  }
+
+  .column, .colum {
+    flex-basis: 45%; /* Make columns take more space on smaller screens */
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .row, .ro {
+    justify-content: center;
+  }
+
+  .column h1, .colum h1 {
+    font-size: 24px;
+  }
+
+  .column p, .colum p {
+    font-size: 16px;
+  }
+
+  #coll a, #co a, #cole a {
+    margin-left: 0;
+    text-align: center;
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .column, .colum {
+    flex-basis: 100%; /* Stack columns on top of each other */
+    height: auto;
+  }
+
+  .serv > h1 {
+    font-size: 24px;
+  }
+
+  .serv p {
+    font-size: 16px;
+  }
+
+  .column h1, .colum h1 {
+    font-size: 20px;
+  }
+
+  .column p, .colum p {
+    font-size: 14px;
+  }
+
+  .row, .ro {
+    flex-direction: column;
+    align-items: center;
+  }
+}
