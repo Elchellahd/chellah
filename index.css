@@ -19,6 +19,10 @@ body{
     text-transform:capitalize;
     color:orange;
   }
+  p{
+    color:black;
+  }
+}
     .container {
         width: 100%;
     }
