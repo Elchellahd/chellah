@@ -160,9 +160,12 @@ button:hover {
     flex-direction: column;
     text-align: center;
   }
-
+  nav h1{
+    color:orange;
+  }
   .hero_section h1 {
-    font-size: 24px;
+    font-size: 50px;
+    
   }
 
   .hero_section h3 {
@@ -176,5 +179,9 @@ button:hover {
   button {
     font-size: 16px;
     padding: 8px;
+  }
+  button a{
+    color:white;
+    text-deciration:none;
   }
 }
