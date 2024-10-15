@@ -151,7 +151,7 @@ button:hover{
 @media screen and (min-width: 768px) {
   /* Desktop styles */
   .hero_section h1 {
-    font-size: 45px;
+    font-size: 60px;
     
   }
 
@@ -159,11 +159,18 @@ button:hover{
     font-size: 20px;
   }
 }
+@media screen and(min-width: 768px) {
+  .hero_section h3{
+    color:black;
+    text-align:center;
+  }
+}
 
 /* Small devices */
 @media screen and (max-width: 768px) {
   nav h1 {
     font-size: 15px;
+    color:orange;
   }
 
   .hero_section h1 {
@@ -172,6 +179,7 @@ button:hover{
 
   .hero_section h3 {
     font-size: 16px;
+    text-align:center;
   }
 
   .nav_links ul li a {
