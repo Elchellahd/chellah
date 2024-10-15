@@ -172,7 +172,7 @@ button:hover {
     
   }
   body{
-      min-height:95vh;
+      min-height:100vh;
   }
   input {
 display:none;
