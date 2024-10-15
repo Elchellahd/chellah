@@ -47,7 +47,7 @@ nav h1 {
 .hero_section h1 {
   font-size: 50px;
   text-transform: capitalize;
-  color:orange;
+  color:orangered;
 }
 
 .hero_section h3 {
@@ -172,7 +172,7 @@ button:hover {
     
   }
   body{
-      min-height: 60vh;
+      min-height: 80vh;
   }
   input {
 display:none;
