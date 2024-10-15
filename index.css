@@ -147,6 +147,7 @@ button:hover{
   /* Desktop styles */
   .hero_section h1 {
     font-size: 45px;
+    color:white;
   }
 
   button {
