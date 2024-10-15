@@ -10,7 +10,7 @@ body{
     background-position: center;
     min-height: 99vh;     
 }
-@media (max-width: 720px) {
+@media screen and(max-width: 720px) {
     body {
         font-size: 14px;
     }
