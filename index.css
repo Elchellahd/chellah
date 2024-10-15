@@ -10,10 +10,15 @@ body{
     background-position: center;
     min-height: 99vh;     
 }
-@media (max-width: 768px) {
+@media (max-width: 720px) {
     body {
         font-size: 14px;
     }
+  h1{
+    font-size: 20px;
+    text-transform:capitalize;
+    color:orange;
+  }
     .container {
         width: 100%;
     }
