@@ -8,9 +8,17 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    min-height: 99vh;  
-   
+    min-height: 99vh;     
 }
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+    .container {
+        width: 100%;
+    }
+}
+
 
  
 nav {
