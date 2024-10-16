@@ -63,10 +63,10 @@ button{
     border-radius: 12px;
     color:white;
     font-size: 15px;
-}@media screen and (max-width: 768px) {
+}@media screen and (max-width: 480px) {
     .container {
-        width: 90%;
-        margin-top: 10%;
+        width: auto;
+        margin-top: 0px;
     }
     h2 {
         font-size: 22px;
